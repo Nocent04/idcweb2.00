@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply w-72 cursor-pointer border-b-4 rounded-md border-white bg-gradient-to-t from-red-900 to-red-600  h-44
+ px-4 py-7 self-end duration-500 delay-100; 
+} 
+
+.card-active{
+    @apply h-96 ;
+}
+
+.para{
+    @apply mt-2;
+}
+
+.logo{
+    @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full text-white grid place-items-center;
+}
+
+
